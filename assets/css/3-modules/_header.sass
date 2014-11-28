@@ -9,10 +9,11 @@
   min-height: 70%
   max-width: 100%
   //On index.html file add the template tag for the featured image source to the background-image url in a style tag above the CSS tamplate block. //
-  //background-image: linear-gradient(rgba($overlay-color, 0.5), rgba($overlay-color, 0.4)), url("/assets/demo/117H.jpg")
+  background-image: linear-gradient(rgba($overlay-color, 0.5), rgba($overlay-color, 0.4)), url("/assets/demo/117H.jpg")
   background-repeat: no-repeat, no-repeat
-  background-position: center, center
+  background-position: center, top
   background-size: cover
+  background-attachment: fixed
   +media($mobile)
     margin-bottom: $margin*2
   +media($mobile-landscape)
